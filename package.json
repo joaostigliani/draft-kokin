@@ -1,0 +1,13 @@
+{
+  "name": "kookin-air-fryer-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page cinematografica da Air Fryer Kookin com video scrub por scroll.",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
