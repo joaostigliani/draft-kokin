@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0e0f">
+    <meta name="description" content="Kookin Air Fryer de vidro. Engenharia visível, preparo preciso e limpeza simples.">
+    <title>Kookin Air Fryer | Veja o sabor acontecer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Kookin, início">
+        <img src="assets/images/brand/logo-kookin.webp" alt="Kookin">
+      </a>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="#engenharia">Engenharia</a>
+        <a href="#materiais">Materiais</a>
+        <a href="#resultado">Resultado</a>
+      </nav>
+      <a class="nav-action" href="https://kookin.com.br/collections/all" target="_blank" rel="noreferrer">
+        <span>Ver produto</span>
+        <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-stage">
+          <div class="hero-backdrop" aria-hidden="true">
+            <img src="assets/images/hero/kookin-video-poster.png" alt="">
+          </div>
+          <video
+            class="hero-film"
+            muted
+            playsinline
+            preload="auto"
+            poster="assets/images/hero/kookin-video-poster.png"
+            data-src="assets/video/kookin-hero-scrub.mp4"
+            aria-label="Filme cinematográfico da Air Fryer Kookin"
+          ></video>
+          <div class="hero-scrim" aria-hidden="true"></div>
+          <div class="hero-copy">
+            <p class="hero-kicker">Air Fryer de vidro</p>
+            <h1 id="hero-title">Veja o sabor acontecer.</h1>
+            <p>Precisão que você acompanha. Materiais que você sente. Limpeza que cabe na vida real.</p>
+            <a class="hero-action" href="#engenharia">
+              <span>Conheça por dentro</span>
+              <span class="hero-action-line" aria-hidden="true"></span>
+            </a>
+          </div>
+          <div class="hero-index" aria-hidden="true">
+            <span class="hero-time">00.0</span>
+            <span class="hero-progress"><i></i></span>
+            <span>10.0 s</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-journey" id="engenharia" aria-label="Jornada técnica da Air Fryer">
+        <div class="journey-stage">
+          <div class="stage-light" aria-hidden="true"></div>
+          <div class="assembled-view" aria-hidden="true">
+            <img src="assets/images/product/generated-image-1.png" alt="">
+          </div>
+          <div class="technical-view" aria-hidden="true">
+            <div class="technical-image">
+              <img src="assets/images/product/air-fryer-components.webp" alt="">
+            </div>
+            <span class="technical-label label-control">Controle</span>
+            <span class="technical-label label-glass">Vidro</span>
+            <span class="technical-label label-rack">Grelha</span>
+            <span class="technical-label label-base">Base</span>
+          </div>
+          <div class="stage-rail" aria-hidden="true">
+            <span class="stage-number">01</span>
+            <span class="stage-line"><i></i></span>
+            <span class="stage-total">04</span>
+          </div>
+        </div>
+
+        <div class="journey-chapters">
+          <article class="chapter chapter-intro" data-step="1">
+            <div class="chapter-copy">
+              <p class="chapter-kicker">Forma e função</p>
+              <h2>Desenhada para ficar à vista.</h2>
+              <p>O módulo branco concentra os controles. O vidro traz leveza visual e deixa o preparo participar da cozinha.</p>
+            </div>
+          </article>
+
+          <article class="chapter chapter-glass" data-step="2">
+            <div class="chapter-copy chapter-copy-right">
+              <h2>Transparência que dá controle.</h2>
+              <p>Você acompanha cor, textura e ponto sem abrir o recipiente e sem interromper o fluxo de calor.</p>
+              <dl class="chapter-specs">
+                <div><dt>Recipiente</dt><dd>Vidro resistente</dd></div>
+                <div><dt>Leitura</dt><dd>360 graus</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="chapter chapter-exploded" data-step="3">
+            <div class="chapter-copy">
+              <p class="chapter-kicker">Engenharia legível</p>
+              <h2>Quatro partes. Uma lógica simples.</h2>
+              <p>Controle superior, cuba de vidro, grelha interna e base de apoio trabalham em sequência, com encaixe claro e desmontagem intuitiva.</p>
+            </div>
+          </article>
+
+          <article class="chapter chapter-clean" data-step="4">
+            <div class="chapter-copy chapter-copy-right">
+              <h2>Da bancada para a mesa.</h2>
+              <p>O recipiente removível simplifica servir, guardar e limpar. Menos etapas entre a receita e o tempo livre.</p>
+              <a class="chapter-action" href="https://kookin.com.br/collections/all" target="_blank" rel="noreferrer">
+                Explorar a linha <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="material-story" id="materiais" aria-labelledby="materials-title">
+        <div class="material-copy">
+          <p>Materiais honestos</p>
+          <h2 id="materials-title">O que você vê é o que cozinha.</h2>
+        </div>
+        <div class="material-image">
+          <img src="assets/images/product/air-fryer-assembled.webp" alt="Air Fryer Kookin branca montada sobre bancada de madeira">
+        </div>
+        <div class="material-facts">
+          <div>
+            <span>01</span>
+            <h3>Vidro</h3>
+            <p>Transparente, removível e direto para a limpeza.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <h3>Metal</h3>
+            <p>Grelha firme para elevar o alimento e distribuir o calor.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <h3>Controle</h3>
+            <p>Comandos concentrados em uma peça superior compacta.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="result-story" id="resultado" aria-labelledby="result-title">
+        <div class="result-media">
+          <img src="assets/images/product/air-fryer-cooked.webp" alt="Frango e legumes assados na Air Fryer Kookin de vidro">
+        </div>
+        <div class="result-copy">
+          <p class="result-index">Do preparo ao prato</p>
+          <h2 id="result-title">Crocante por fora. Visível por inteiro.</h2>
+          <p>Frango, legumes e receitas do dia a dia ganham calor uniforme com menos bagunça na bancada.</p>
+          <a href="https://kookin.com.br/collections/all" target="_blank" rel="noreferrer">
+            <span>Descobrir Kookin</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="assets/images/brand/logo-kookin.webp" alt="Kookin">
+      <p>Tecnologia simples para cozinhas mais leves.</p>
+      <a href="#inicio">Voltar ao início ↑</a>
+    </footer>
+  </body>
+</html>
